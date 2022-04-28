@@ -1,1 +1,1 @@
-To-Do: continuar con el video número 40.
+Repositorio para subir mis smart contracts en solidity
