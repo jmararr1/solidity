@@ -7,7 +7,7 @@ contract Mappings {
 
     // Al definir la funcion como public, crea automaticamente un metodo get.
     function elegirNumero(uint _numero) public {
-        elegirNumero[msg.sender] = _numero;
+        elegir_num[msg.sender] = _numero;
     }
 
     function consultarNumero () public view returns (uint) {

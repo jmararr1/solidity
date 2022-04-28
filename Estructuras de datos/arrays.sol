@@ -15,7 +15,7 @@ contract Arrays {
     
     // Para usar push es necesario que esté dentro de una función
     function modificar_array (string memory _nombre, uint _edad) public {
-        Persona.push(Persona(_nombre, _edad));
+        array_personas.push(Persona(_nombre, _edad));
     }
 
 }
